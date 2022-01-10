@@ -9,8 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    func printing(){
-    print("helo")
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .red
     }
+   
 }
 
